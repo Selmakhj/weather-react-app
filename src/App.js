@@ -1,4 +1,4 @@
-import react from "react";
+import React from "react";
 import Weather from "./weather";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.css";
@@ -7,8 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <div class="container">
-        <h1></h1>
-        <Weather defaultcity="Tehran" />
+        <Weather defaultCity="Tehran" />
         <footer>
           This project was coded by Selma Khajeh and {""}
           <a

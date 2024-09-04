@@ -1,1 +1,61 @@
+.App {
+  max-width: 900px;
+  margin: 60px auto;
+  color: #ffff;
+  padding: 30px 50px;
+  border-radius: 10px;
+  box-shadow: 0 30px 50px rgba(65, 50, 100, 0.08);
+}
+.search-form {
+  display: flex;
+  justify-content: start;
+}
+.search-input {
+  border: grey;
+  border-radius: 6px;
+  padding: 10px;
+  width: 80%;
+  background: #ffff;
+}
+.search-button {
+  border: none;
+  border-radius: 6px;
+  color: rgba(39, 33, 66, 0.8);
+  background: #ffff;
+  cursor: pointer;
+  transition: all 200ms ease;
+  width: 20%;
+  margin-left: 5px;
+}
 
+.current-weather {
+  margin: 30px;
+  padding: 50px 0;
+}
+.current-temperature-icon {
+  position: relative;
+}
+
+.current-temperature-value {
+  position: relative;
+  font-size: 80px;
+  font-weight: bold;
+  margin-top: -20px;
+}
+.current-temperature-unit {
+  font-size: 28px;
+}
+.city-details {
+  text-align: right;
+  color: #ffff;
+}
+
+.current-city {
+  font-size: 38px;
+  font-weight: 900;
+  margin-bottom: 0;
+  color: #ec6f4c;
+}
+.link {
+  color: #ffff;
+}
