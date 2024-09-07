@@ -9,12 +9,21 @@ export default function App() {
       <div class="container">
         <Weather defaultCity="Tehran" />
         <footer>
-          This project was coded by Selma Khajeh and {""}
+          This project was coded by Selma Khajeh and is{" "}
           <a
             href="https://github.com/Selmakhj/weather-react-app"
             target="_blank"
+            rel="noopener noreferrer"
           >
-            is open-sourced on Github
+            open-sourced on Github
+          </a>{" "}
+          and{" "}
+          <a
+            href="https://weather-react-app-ap8v.onrender.com"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            hosted on Render
           </a>
         </footer>
       </div>
